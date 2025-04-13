@@ -1,3 +1,10 @@
+import { Center, Box, Text } from "@mantine/core";
 export default function App() {
-  return <div>Hello</div>;
+  return (
+    <Box>
+      <Center>
+        <Text>Hello</Text>
+      </Center>
+    </Box>
+  );
 }
